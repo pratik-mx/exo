@@ -12,7 +12,7 @@ install_requires = [
   "grpcio==1.70.0",
   "grpcio-tools==1.70.0",
   "Jinja2==3.1.4",
-  "numpy==2.0.0",
+  "numpy>=1.24.0,<2.0.0",
   "nuitka==2.5.1",
   "nvidia-ml-py==12.560.30",
   "opencv-python==4.10.0.84",
@@ -35,7 +35,7 @@ install_requires = [
 extras_require = {
   "formatting": ["yapf==0.40.2",],
   "apple_silicon": [
-    "mlx==0.22.0",
+    "mlx==0.28.0",
     "mlx-lm==0.21.1",
   ],
   "windows": ["pywin32==308",],
